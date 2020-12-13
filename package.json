@@ -5,22 +5,35 @@
   "main": "server.js",
   "scripts": {
     "Start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "start": "node server.js"
   },
   "author": "satya",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
     "config": "^3.3.3",
     "express": "^4.17.1",
     "express-validator": "^6.8.0",
     "gravatar": "^1.8.1",
+    "joi": "^17.3.0",
     "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
     "mongoose": "^5.11.7",
+    "morgan": "^1.10.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyaprakash-7101/MERN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/satyaprakash-7101/MERN/issues"
+  },
+  "homepage": "https://github.com/satyaprakash-7101/MERN#readme"
 }
